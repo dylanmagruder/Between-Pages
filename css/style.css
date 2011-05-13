@@ -1,5 +1,5 @@
 body {
-	background-color: #915200;
+	background-color: #613f00;
 }
 #body-index {
 	width: 500px;
@@ -10,6 +10,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
+	font-family: Times, serif;
+	font-size: 18px;
 }
 #title-index {
 	float: left;
@@ -17,15 +19,15 @@ body {
 	width: 153px;
 	border-right: 1px #000000 solid;
 	padding: 20px;
-	padding-top: 45px;
-	height: 110px;
+	padding-top: 35px;
+	height: 120px;
 	vertical-align: middle;
 }
 #login-form-index {
 	float: right;
 	text-align: left;
 	padding: 20px;
-	padding-top: 45px;
+	padding-top: 35px;
 }
 #login-form-index label {
 	float: left;
@@ -44,10 +46,43 @@ body {
 	border: 1px #a8a8a8 solid;
 	background-color: #b8b8b8;
 }
-#login-form-index .login-form-submit input:active {
-	background-color: #a8a8a8;
-}
 #vertical-center {
 	height: 50%;
 	margin-bottom: -98px;
+}
+.title-index {
+	letter-spacing: 1px;
+}
+.sign-up {
+	width: 150px;
+	text-align: left;
+	margin-left: 100px;
+}
+.sign-up a {
+	color: #b8b8b8;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
+}
+.sign-up a:hover {
+	color: #b8b8b8;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: underline;
+}
+.sign-up a:active {
+	color: #b8b8b8;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: underline;
+}
+.sign-up a:visited {
+	color: #b8b8b8;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-decoration: none;
 }
