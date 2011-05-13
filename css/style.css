@@ -1,0 +1,53 @@
+body {
+	background-color: #915200;
+}
+#body-index {
+	width: 500px;
+	border: 1px #000000 solid;
+	background-color: #ffffff;
+	padding: 10px;
+	height: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#title-index {
+	float: left;
+	text-align: center;
+	width: 153px;
+	border-right: 1px #000000 solid;
+	padding: 20px;
+	padding-top: 45px;
+	height: 110px;
+	vertical-align: middle;
+}
+#login-form-index {
+	float: right;
+	text-align: left;
+	padding: 20px;
+	padding-top: 45px;
+}
+#login-form-index label {
+	float: left;
+	width: 100px;
+	display: block;
+}
+#login-form-index input {
+	width: 150px;
+	float: right;
+	border: 1px #a8a8a8 solid;
+	display: block;
+}
+#login-form-index .login-form-submit input {
+	width: 40px;
+	text-align: right;
+	border: 1px #a8a8a8 solid;
+	background-color: #b8b8b8;
+}
+#login-form-index .login-form-submit input:active {
+	background-color: #a8a8a8;
+}
+#vertical-center {
+	height: 50%;
+	margin-bottom: -98px;
+}
